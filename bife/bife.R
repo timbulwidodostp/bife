@@ -2,10 +2,11 @@
 # WhatsApp : +6285227746673
 # IG : @olahdatasemarang_
 # Binary Choice Models with Fixed Effects Use Package bife With (In) R Software
-install.packages("xlsx")
-install.packages("writexl")
-library("xlsx")
-library("writexl")
+install.packages("readxl")
+install.packages("httr")
+install.packages("bife")
+library("readxl")
+library("httr")
 library("bife")
 # Import Data Excel Into R From Github Olah Data Semarang (timbulwidodostp)
 github_link <- "https://github.com/timbulwidodostp/bife/raw/main/bife/bife.xlsx"
