@@ -4,9 +4,11 @@
 # Binary Choice Models with Fixed Effects Use Package bife With (In) R Software
 install.packages("readxl")
 install.packages("httr")
+install.packages("Rcpp")
 install.packages("bife")
 library("readxl")
 library("httr")
+library("Rcpp")
 library("bife")
 # Import Data Excel Into R From Github Olah Data Semarang (timbulwidodostp)
 github_link <- "https://github.com/timbulwidodostp/bife/raw/main/bife/bife.xlsx"
